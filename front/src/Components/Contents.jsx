@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import './CSS/AboutMe.css'
+import './CSS/Contents.css'
 //wag kalimutan import axios
 import axios from 'axios'
+//npm i sass para sa css to
 
-const AboutMe = () => {
+const Contents = () => {
     //taga salo lang ng data galing backend
     const [data, setData] = useState([]);
   
@@ -21,17 +22,29 @@ const AboutMe = () => {
       {/*mapping para madisplay like props yung data sa array ng usestate */}
       {data.map((data)=>(
         //need unique id kea nilagay ko sa div
-        <div key={data.mema.id}>
+        <div key={data.me.id}>
 
-          <div>
-            <p>{data.mema.name}</p>
+          <div className='container1'>
+            <div className='container2'>
+              <div className='container3'>
+                <img src={data.me.img}></img>
+              </div>
+
+              <div className='content1'>
+                <h1 className='name'>Glen Danielle D. Galit</h1>
+              </div>
+              
+              
+            </div>
+            
           </div>
 
         </div>
       ))}
+      
     </div>
     </>
   )
 }
 
-export default AboutMe
+export default Contents

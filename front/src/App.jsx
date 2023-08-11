@@ -1,5 +1,5 @@
 import './App.css'
-import AboutMe from './Components/AboutMe'
+import Contents from './Components/Contents'
 //notes 
 //npm i axios dis is for fetching
 //react-router-dom for outlet and links
@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <div>
-        <AboutMe/>
+        <div className='body'>
+          <Contents/>
+        </div>
       </div>
     </>
   )
