@@ -33,15 +33,48 @@ const AboutMe = ({data}) => {
             <div className='container2'>
 
               <div className='container2-1'>
-
+                <p>SKILLS</p>
               </div>
-              <div className='container2-2'>
-                <div className='imgContainer2-1'>
-                  <img src='https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2019/01/2000px-React-icon.svg_.png?fit=2000%2C1413&ssl=1'></img>
+              <div className='containersz'>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452092/react.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img className='ZO' src='https://www.svgrepo.com/show/452045/js.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452228/html-5.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/373528/cpp3.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img className="ZO" src='https://www.svgrepo.com/show/452234/java.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452075/node-js.svg'></img>
+                </div>
+
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452088/php.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452091/python.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/374118/tailwind.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://www.svgrepo.com/show/452185/css-3.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img src='https://daisyui.com/images/daisyui-logo/daisyui-logomark.svg'></img>
+                </div>
+                <div className='imgContainersz'>
+                  <img className="ZO" src='https://www.svgrepo.com/show/353498/bootstrap.svg'></img>
+                </div>
                 
-                  </div>
               </div>
-
             </div>
 
           </div>
