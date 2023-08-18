@@ -1,11 +1,13 @@
 import './App.css'
 import { useState, useEffect } from 'react';
 import AboutMe from './Components/AboutMe'
+import Projects from './Components/Projects';
 //notes 
 //npm i axios dis is for fetching
 import axios from 'axios'
 //npm i sass para sa css to
 //react-router-dom for outlet and links
+import Test from './Components/test/Test';
 
 function App() {
   //taga salo lang ng data galing backend
@@ -22,7 +24,8 @@ function App() {
     <>
       <div className='body'>
         <div>
-          <AboutMe data={apiData}/>
+          <AboutMe datas={apiData}/>
+          <Projects datas={apiData}/>
         </div>
       </div>
     </>

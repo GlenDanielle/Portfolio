@@ -1,10 +1,68 @@
 {
     "me":{
         "id": "0",
+        "name":"Hello! I'm Glen Danielle Delavega Galit",
+        "intro":"I'm a 4th year college student, a beginner at webdev who wants to be a full stack developer",
         "img": "https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/271277315_931703504182490_311451471202077083_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=z7hSqUUKoSgAX9NIeLg&_nc_ht=scontent.fmnl4-6.fna&_nc_e2o=f&oh=03_AdR4a94a692iOoeA6sEs4wUWStXsqraJLzohyW3MmTexyA&oe=64FB9BA7"
     },
-    "skills":{
-        "id": "1",
-        "img1": "hoho"
+    "react":{
+        "id":"1",
+        "name":"React Js",
+        "img":"https://www.svgrepo.com/show/452092/react.svg"
+    },
+    "js":{
+        "id":"2",
+        "name":"Java script",
+        "img":"https://www.svgrepo.com/show/452045/js.svg"
+    },
+    "html":{
+        "id":"3",
+        "name":"Html",
+        "img":"https://www.svgrepo.com/show/452228/html-5.svg"
+    },
+    "cpp":{
+        "id":"4",
+        "name":"C++",
+        "img":"https://www.svgrepo.com/show/373528/cpp3.svg"
+    },
+    "java":{
+        "id":"5",
+        "name":"Java",
+        "img":"https://www.svgrepo.com/show/452234/java.svg"
+    },
+    "node":{
+        "id":"6",
+        "name":"Node Js",
+        "img":"https://www.svgrepo.com/show/452075/node-js.svg"
+    },
+    "php":{
+        "id":"7",
+        "name":"Php",
+        "img":"https://www.svgrepo.com/show/452088/php.svg"
+    },
+    "python":{
+        "id":"8",
+        "name":"Python",
+        "img":"https://www.svgrepo.com/show/452091/python.svg"
+    },
+    "tailwind":{
+        "id":"9",
+        "name":"Tailwind",
+        "img":"https://www.svgrepo.com/show/374118/tailwind.svg"
+    },
+    "css":{
+        "id":"10",
+        "name":"Css",
+        "img":"https://www.svgrepo.com/show/452185/css-3.svg"
+    },
+    "daisyui":{
+        "id":"11",
+        "name":"DaisyUi",
+        "img":"https://daisyui.com/images/daisyui-logo/daisyui-logomark.svg"
+    },
+    "bootstrap":{
+        "id":"12",
+        "name":"Bootstrap",
+        "img":"https://www.svgrepo.com/show/353498/bootstrap.svg"
     }
 }

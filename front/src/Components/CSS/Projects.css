@@ -1,0 +1,22 @@
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.projCont{
+    @apply hero bg-base-200 min-h-full
+}
+.projContent{
+    @apply hero-content flex-col lg:flex-row
+}
+.projImg{
+    @apply max-w-sm rounded-lg shadow-2xl
+}
+.title{
+    @apply text-5xl font-bold
+}
+.desc{
+    @apply py-6
+}
+.butt{
+    @apply btn btn-primary
+}
