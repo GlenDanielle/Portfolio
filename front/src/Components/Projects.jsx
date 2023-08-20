@@ -3,22 +3,37 @@ import './CSS/Projects.css'
 const Projects = ({datas}) => {
   return (
     <div>
-        {datas.map((key)=>(
-            <div key={key}>
+        {datas.map((data)=>(
+            <div key={data}>
                 <div className='cont'>
+                
 
-                    <div className='container2'>
-                        <div className="projCont">
-                            <div className="projContent">
-                                <img src="https://picsum.photos/id/237/200/300" className="projImg" />
-                                <div>
-                                    <h1 className="title">Box Office News!</h1>
-                                    <p className="desc">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                    <button className="butt">Get Started</button>
+                    <div className='containerTxtProj'>
+                        <h1 className='txtProjTit'>PROJECTS</h1>
+                    </div>
+                        
+                    {Object.values(data.projects).map((el)=>{
+                        return(
+                    
+                            <div key={el.id} className='compProjContainer'>
+                                <div className="projImg" style={{backgroundImage:el.img}}>
+                                    <div className="projContainer">
+            
+                                    </div>
+                                    <div className="projtxtContainer">
+                                        <div className="txtFormat">
+                                            <h1 className="title">{el.title}</h1>
+                                            <p className="desc">{el.desc}</p>
+                                            <button className="butt">Checkout</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        )
+                    })}
+                        
+
+                   
                     
                 </div>
             </div>

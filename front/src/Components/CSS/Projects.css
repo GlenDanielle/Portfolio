@@ -1,21 +1,43 @@
 .cont{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 1800px;
 }
-.projCont{
-    @apply hero bg-base-200 min-h-full
+.containerTxtProj{
+    @apply shadow-2xl px-5 mb-7
 }
-.projContent{
-    @apply hero-content flex-col lg:flex-row
+.txtProjTit{
+    font-weight: bolder;
+    color: black;
+    font-size: 100px;
+}
+
+.compProjContainer{
+    width: 1100px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+
+    @apply p-3 shadow-2xl
 }
 .projImg{
-    @apply max-w-sm rounded-lg shadow-2xl
+    @apply hero h-screen
+}
+.projContainer{
+    @apply hero-overlay bg-opacity-60
+}
+.projtxtContainer {
+    @apply hero-content text-center text-neutral-content
+}
+.txtFormat{
+    @apply max-w-md
 }
 .title{
-    @apply text-5xl font-bold
+    @apply mb-5 text-5xl font-bold
 }
 .desc{
-    @apply py-6
+    @apply mb-5
 }
 .butt{
     @apply btn btn-primary

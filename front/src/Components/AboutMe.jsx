@@ -9,9 +9,8 @@ const AboutMe = ({datas}) => {
       {/* */}
       {/*mapping para madisplay like props yung data sa array ng usestate */}
       {datas.map((data)=>(
-        //need unique id kea nilagay ko sa div
         <div key={data}>
-
+          {/*need unique id kea nilagay ko sa div*/}
           <div className='container'>
             <div className='container1'>
 
@@ -37,7 +36,7 @@ const AboutMe = ({datas}) => {
 
               <div className='containersz'>
 
-                {Object.values(data).slice(1).map((el) => (
+                {Object.values(data.skills).map((el) => (
                   <div key={el.id} className='imgContainersz'>
                     <img src={el.img} alt={el.name}></img>
                   </div>
