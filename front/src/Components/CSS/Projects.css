@@ -1,0 +1,44 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1800px;
+}
+.containerTxtProj{
+    @apply shadow-2xl px-5 mb-7
+}
+.txtProjTit{
+    font-weight: bolder;
+    color: black;
+    font-size: 100px;
+}
+
+.compProjContainer{
+    width: 1100px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+
+    @apply p-3 shadow-2xl
+}
+.projImg{
+    @apply hero h-screen
+}
+.projContainer{
+    @apply hero-overlay bg-opacity-60
+}
+.projtxtContainer {
+    @apply hero-content text-center text-neutral-content
+}
+.txtFormat{
+    @apply max-w-md
+}
+.title{
+    @apply mb-5 text-5xl font-bold
+}
+.desc{
+    @apply mb-5
+}
+.butt{
+    @apply btn btn-primary
+}

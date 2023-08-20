@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1350px;
+    padding: 20px; 
+}
+.container1{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @apply p-5 space-x-2 shadow-2xl
+}
+.content1-1{
+
+    width: 500px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: raleway; 
+    border-radius: 40px;
+    @apply text-black text-7xl shadow-2xl p-5 font-bold
+}
+.intro{
+    @apply text-3xl mt-3
+}
+.content1-2{
+    width: 500px;
+    height: 453px;
+    border-radius: 40px;
+    @apply overflow-hidden 
+}
+.container2{
+
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    @apply p-3 shadow-2xl
+}
+.container2-1{
+
+    width: 1070px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    font-size: 100px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 12px;
+    @apply shadow-2xl 
+}
+.containersz{
+
+    width: 1070px;
+    height: 368px;
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    @apply flex-wrap p-2
+}
+.imgContainersz{
+    background-color: black;
+    border: solid black;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @apply rounded-full hover:-translate-y-5 mx-7 my-5
+}
