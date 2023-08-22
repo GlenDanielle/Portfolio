@@ -37,10 +37,11 @@
 }
 .container2{
 
-    width: 1100px;
     height: 500px;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
     @apply p-3 shadow-2xl
 }
@@ -59,7 +60,6 @@
     @apply shadow-2xl 
 }
 .containersz{
-
     width: 1070px;
     height: 368px;
     display:flex;

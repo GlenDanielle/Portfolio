@@ -2,8 +2,40 @@
     "me":{
         "id": "0",
         "name":"Hello! I'm Glen Danielle Delavega Galit",
-        "intro":"I'm a 4th year college student, a beginner at webdev who wants to be a full stack developer",
+        "intro":"I'm a 4th year college student, who wants to be a software engineer",
         "img": "https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/271277315_931703504182490_311451471202077083_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=z7hSqUUKoSgAX9NIeLg&_nc_ht=scontent.fmnl4-6.fna&_nc_e2o=f&oh=03_AdR4a94a692iOoeA6sEs4wUWStXsqraJLzohyW3MmTexyA&oe=64FB9BA7"
+    },
+    "contacts":{
+        "facebook":{
+            "id": "0",
+            "name": "facebook",
+            "img": "https://www.svgrepo.com/show/452196/facebook-1.svg",
+            "link":"https://www.facebook.com/profile.php?id=100058489353901"
+        },
+        "gmail":{
+            "id": "1",
+            "name": "gmail",
+            "img": "https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/369155899_837865397559425_8722922450645807976_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEMt4DmErzweGhVeu44_2qPR2Ia8fjkfGdHYhrx-OR8Zz438-7h3jZLhtjcSfRobTJhpYnTKQFTQzZ01BnhIj0p&_nc_ohc=waILeEhtGXgAX9CDa4f&_nc_ht=scontent.fmnl25-2.fna&_nc_e2o=f&oh=03_AdTWDY5dI46kR2ahNsp1rf54LYaVhQEIjC1uuxxvHLoADg&oe=65094FC1",
+            "link":"mailto:glendanielleg@gmail.com"
+        },
+        "github":{
+            "id": "2",
+            "name": "github",
+            "img": "https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/369387384_311270147927326_5107943953389783531_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFn6SYJBk1jqKekLaKp_w9bkva8S-00H4yS9rxL7TQfjMVAfqEOfp21HHNvCwZ_a7g4RgR7tGzPd9J0M3BgsXwB&_nc_ohc=1dlbGaeYOAEAX9VBK48&_nc_ht=scontent.fmnl25-1.fna&_nc_e2o=f&oh=03_AdSUSoG0Uz3-6v4fwylEiDGGs3LbDJJg7lxiBPUqgQ0zqw&oe=65093516",
+            "link":"https://github.com/GlenDanielle"
+        },
+        "phone":{
+            "id": "3",
+            "name": "CP-number",
+            "img": "https://www.svgrepo.com/show/490963/phone.svg",
+            "link":"cp"
+        },
+        "resume":{
+            "id": "4",
+            "name": "Resume",
+            "img": "https://www.svgrepo.com/show/207645/curriculum-portfolio.svg",
+            "link":"resume"
+        }
     },
     "skills":{
         "react":{
@@ -70,15 +102,17 @@
     "projects":{
         "EcommerceAS":{
             "id":"0",
+            "links":"https://github.com/GlenDanielle/EcommerceAS",
             "title": "E-commerce app in android",
             "desc":"A SMES cafe ordering system made in Android Studio with firebase realtime database, as a requirement for our subject",
             "img":"url(https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/368555889_6619980938063492_8392953197035744530_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEv0PmQjoE7YOTK6XZBYwpbavfSJpeIbLdq99Iml4hst8-DQ02FzYvUq6coUvGgBAczGwsbtHqUgj9avYZlA8sP&_nc_ohc=pEkZaCrq_WkAX_9bmTA&_nc_ht=scontent.fmnl4-6.fna&_nc_e2o=f&oh=03_AdRn1dQS7tYJZqjhLKQMkHdD3kHKnZYQakF1s4LDkIe7EA&oe=65077CE8)"
         },
         "gameScratch":{
             "id":"1",
-            "title": "Isometric shooter game",
-            "desc":"made in Scratch, as a requirement for our subject",
-            "img":""
+            "links":"https://github.com/GlenDanielle/Scratch",
+            "title": "Scratch Isometric shooter game",
+            "desc":"",
+            "img":"url(https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/368965882_1040143300498556_482428769582106879_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEjG_KUFeHyigzCFPTkJ2332asv1avNAjvZqy_Vq80CO0Fwht66Hl8w8l395q7rLCkZp_YGb1aCEjoJx1UCbJr9&_nc_ohc=f7IRlov51oAAX-TW2t_&_nc_ht=scontent.fmnl4-6.fna&_nc_e2o=f&oh=03_AdSeoNk_-pkJWoGTO9DXcV17fpSKtoblTQcgbTcZFZvghA&oe=65091DDC)"
         }
     }
 }

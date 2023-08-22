@@ -3,6 +3,136 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media (max-width: 1024px){
+  .container1{
+    width: 900px;
+  }
+  .content1-1{
+    @apply text-6xl
+  }
+  .container2{
+    flex-direction: row;
+    width: 900px;
+  }
+  .imgContainersz{
+    
+    @apply m-4
+  }
+  .compProjContainer{
+    width: 900px;
+  }
+  .linkinCont{
+    @apply m-0
+  }
+  .containersz{
+    justify-content: space-evenly;
+    @apply p-1
+  }
+  .cont{
+    height: 1760px;
+  }
+}
+
+@media (max-width: 768px){
+  .container{
+    height: 1600px;
+  }
+  .container1{
+    align-items: center;
+    height: 1000px;
+    width: 650px;
+    flex-direction: column;
+    
+  }
+  .content1-1{
+    height: fit-content;
+  }
+  .container2{
+    width: 650px;
+    height: 650px;
+    
+  }
+  .compProjContainer{
+    width: 650px;
+  }
+  .containersz{
+    width: 600px
+  }
+  .cont{
+    height: 1700px;
+  }
+}
+
+@media (max-width: 425px){
+  .container1{
+    align-items: center;
+    height: auto;
+    width: 350px;
+    flex-direction: column;
+    @apply mb-5
+  }
+  .content1-1{
+    width: auto;
+    height: auto;
+    @apply text-4xl mb-5
+  }
+  .intro{
+    @apply text-xl mt-3
+  }
+  .content1-2{
+    width: auto;
+    height: 300px;
+    border-radius: 40px;
+    @apply overflow-hidden 
+  }
+  .container{
+    justify-content: flex-start;
+    height: 1650px;
+    @apply pt-10
+    
+  }
+  .container2{
+    width: 350px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .container2-1{
+    width: auto;
+    height: auto;
+    @apply p-1 text-8xl
+  }
+  .containersz{
+    height: auto;
+    width: 320px;
+  }
+  .containerTxtProj{
+    height: auto;
+    width: auto;
+    @apply py-3
+  }
+  .txtProjTit{
+    @apply text-7xl
+  }
+  .compProjContainer{
+    width: auto;
+    height: auto;
+  }
+  .projImg{
+    background-position: right;
+  }
+  .desc{
+    display: none;
+  }
+  .linkinCont{
+    @apply m-3
+  }
+  .cont{
+    height: auto;
+  }
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
