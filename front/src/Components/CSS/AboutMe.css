@@ -79,3 +79,6 @@
     justify-content: center;
     @apply rounded-full hover:-translate-y-5 mx-7 my-5
 }
+.skillsTT{
+    @apply tooltip tooltip-open tooltip-top
+}

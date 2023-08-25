@@ -5,6 +5,7 @@ import Projects from './Components/Projects';
 //notes 
 //npm i sass para sa css to
 import Datas from'./Datas.json'
+import Navbar from './Components/Navbar';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <div className='body'>
         <div>
+          <Navbar />
           <AboutMe datas={jsonData}/>
           <Projects datas={jsonData}/>
         </div>

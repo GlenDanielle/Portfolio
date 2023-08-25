@@ -37,8 +37,10 @@ const AboutMe = ({datas}) => {
               <div className='containersz'>
 
                 {Object.values(data.skills).map((el) => (
-                  <div key={el.id} className='imgContainersz'>
-                    <img src={el.img} alt={el.name}></img>
+                  <div key={el.id} className="skillsTT" data-tip={el.name}>
+                    <div  className='imgContainersz'>
+                      <img src={el.img} alt={el.name}></img>
+                    </div>
                   </div>
                 ))}
             

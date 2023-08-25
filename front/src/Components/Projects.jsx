@@ -44,13 +44,15 @@ const Projects = ({datas}) => {
                         {Object.values(data.contacts).map((el) => (
                             <div key={el.id}>
                                 {/* tooltip sana */}
-                                <div href={el.links} className='linkinCont'>
-                                    <a className='linkin' 
-                                        style={{backgroundImage:`url(${el.img})`}}
-                                        target={el.link === 'cp' ? null : '_blank'}
-                                        href={el.link}
-                                        download={el.link === 'resume' ? 'Resume.docs' : null}
-                                    ></a>
+                                <div key={el.id} className="skillsTT" data-tip={el.name}>
+                                    <div href={el.links} className='linkinCont'>
+                                        <a className='linkin' 
+                                            style={{backgroundImage:`url(${el.img})`}}
+                                            target={el.link === 'cp' ? null : '_blank'}
+                                            href={el.link}
+                                            download={el.link === 'resume' ? 'Resume.docs' : null}
+                                        ></a>
+                                    </div>
                                 </div>
                                 
                             </div>

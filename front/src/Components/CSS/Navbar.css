@@ -1,0 +1,13 @@
+
+.contentDD{
+    @apply menu bg-base-200 rounded-box w-max
+}
+.contentTT{
+    @apply tooltip tooltip-right
+}
+.svgC{
+    @apply h-5 w-5
+}
+.buttDD{
+    @apply btn btn-accent
+}
