@@ -1,31 +1,62 @@
 import { useState } from 'react'
 import './CSS/Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({datas}) => {
 
   const [navbarActive, setNavbarActive] = useState(false)
+  const [darkmodeActive, setDarkmodeActive] = useState(false)
+
+  const darkmodeToggle=()=>{
+    setDarkmodeActive(!darkmodeActive);
+  }
 
   const DDmenu =()=>{
     return(
       <div className=''>
-        <ul className="contentDD">
-          <li>
-            <a className="contentTT" data-tip="Home">
-              <svg xmlns="http://www.w3.org/2000/svg" className="svgC" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-            </a>
-          </li>
-        </ul>
+        {datas.map((cat)=>{
+          return(
+            <div key={cat}> 
+              {Object.values(cat.navbar).map((el)=>{
+                
+                return(
+                  <div key={el.id}>
+                    <div className="contentDD">
+                      <div className="contentTT" data-tip={el.name === "Dark mode" ? darkmodeActive ? el.Lname : el.name : el.name}>
+                        <div className='CC'>
+                          <a className='svgC'  
+                              style={{backgroundImage:`url(${el.name === "Dark mode" ? darkmodeActive ? el.Limg : el.img : el.img})`,
+                              height:`${el.name === "Me" ? "70px" : "45px"}`, width:`${el.name === "Me" ? "70px" : "45px"}`}}
+                              onClick={()=>{el.name === "Dark mode" ? darkmodeToggle() : null}}
+                              href={el.contS === '' ? null : el.contS}
+                          >
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          )
+        })}
       </div>
     )
   }
 
   return (
     <div>
-      <div className=''>
-        <button onClick={()=>setNavbarActive(!navbarActive)} className='buttDD'>Button</button>
+      <div className='navbarContainer'>
+        <div className='navbarCont'>
+          <button onClick={()=>setNavbarActive(!navbarActive)} 
+            className='buttDD'
+            style={{backgroundImage:`url(${navbarActive ? 'https://www.svgrepo.com/show/521564/close.svg' : 'https://www.svgrepo.com/show/532195/menu.svg'})`}}
+          >
+            
+          </button>
+          
+        </div>
+        {navbarActive ? DDmenu() : null}
       </div>
-    
-    {navbarActive ? DDmenu() : null}
 
     </div>
   )

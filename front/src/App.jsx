@@ -15,7 +15,7 @@ function App() {
     <>
       <div className='body'>
         <div>
-          <Navbar />
+          <Navbar datas={jsonData}/>
           <AboutMe datas={jsonData}/>
           <Projects datas={jsonData}/>
         </div>

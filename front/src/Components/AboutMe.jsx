@@ -11,7 +11,7 @@ const AboutMe = ({datas}) => {
       {datas.map((data)=>(
         <div key={data}>
           {/*need unique id kea nilagay ko sa div*/}
-          <div className='container'>
+          <div id="intro" className='container'>
             <div className='container1'>
 
               <div className='content1-1'>
@@ -28,7 +28,7 @@ const AboutMe = ({datas}) => {
 
             </div>
 
-            <div className='container2'>
+            <div id="skills" className='container2'>
 
               <div className='container2-1'>
                 <p>SKILLS</p>

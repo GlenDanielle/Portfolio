@@ -1,13 +1,32 @@
 
 .contentDD{
-    @apply menu bg-base-200 rounded-box w-max
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-98px);
+    @apply bg-white rounded-box w-12 h-12
 }
 .contentTT{
     @apply tooltip tooltip-right
 }
+.CC{
+    display: flex; 
+}
 .svgC{
-    @apply h-5 w-5
+    background-size:contain;
+    overflow: hidden;
 }
 .buttDD{
-    @apply btn btn-accent
+    background-size:cover;
+    width: 50px;
+    @apply btn bg-white;
+}
+.navbarCont{
+    display: flex;
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    position:fixed;
+    transform: translateY(350px);
 }

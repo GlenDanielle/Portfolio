@@ -5,6 +5,40 @@
         "intro":"I'm a 4th year college student, who wants to be a software engineer",
         "img": "https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.15752-9/271277315_931703504182490_311451471202077083_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=z7hSqUUKoSgAX9NIeLg&_nc_ht=scontent.fmnl4-6.fna&_nc_e2o=f&oh=03_AdR4a94a692iOoeA6sEs4wUWStXsqraJLzohyW3MmTexyA&oe=64FB9BA7"
     },
+    "navbar":{
+        "darkmode":{
+            "id":"0",
+            "name":"Dark mode",
+            "img":"https://www.svgrepo.com/show/532875/moon.svg",
+            "Limg":"https://www.svgrepo.com/show/532889/sun.svg",
+            "Lname":"Light mode",
+            "contS":""
+        },
+        "Navme":{
+            "id":"1",
+            "name":"Me",
+            "img":"https://www.svgrepo.com/show/370499/people.svg",
+            "contS":"#intro"
+        },
+        "Navskill":{
+            "id":"2",
+            "name":"Skills",
+            "img":"https://www.svgrepo.com/show/422562/business-management-stamp.svg",
+            "contS":"#skills"
+        },
+        "Navproj":{
+            "id":"3",
+            "name":"Projects",
+            "img":"https://www.svgrepo.com/show/422561/agenda-book-business.svg",
+            "contS":"#projects"
+        },
+        "Navcontacts":{
+            "id":"4",
+            "name":"Contacts",
+            "img":"https://www.svgrepo.com/show/533285/phone.svg",
+            "contS":"#contacts"
+        }
+    },  
     "contacts":{
         "facebook":{
             "id": "0",

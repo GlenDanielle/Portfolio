@@ -6,7 +6,7 @@ const Projects = ({datas}) => {
     <div>
         {datas.map((data)=>(
             <div key={data}>
-                <div className='cont'>
+                <div id='projects' className='cont'>
                 
                     <div className='containerTxtProj'>
                         <h1 className='txtProjTit'>PROJECTS</h1>
@@ -39,7 +39,7 @@ const Projects = ({datas}) => {
                         </div>
 
                     </div>
-                    <div className='containersz'>
+                    <div id='contacts' className='containersz'>
 
                         {Object.values(data.contacts).map((el) => (
                             <div key={el.id}>
