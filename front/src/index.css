@@ -32,9 +32,15 @@
   .cont{
     height: 1760px;
   }
+  .navbarContainer{
+    @apply translate-y-80;
+  }
 }
 
 @media (max-width: 768px){
+  .navbarContainer{
+    @apply translate-y-52;
+  }
   .container{
     height: 1600px;
   }

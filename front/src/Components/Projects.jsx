@@ -50,7 +50,7 @@ const Projects = ({datas}) => {
                                             style={{backgroundImage:`url(${el.img})`}}
                                             target={el.link === 'cp' ? null : '_blank'}
                                             href={el.link}
-                                            download={el.link === 'resume' ? 'Resume.docs' : null}
+                                            download={el.link === 'resume' ? 'Resume.pdf' : null}
                                         ></a>
                                     </div>
                                 </div>

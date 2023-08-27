@@ -5,11 +5,10 @@
     height: 1820px;
 }
 .containerTxtProj{
-    @apply shadow-2xl px-5 mb-7
+    @apply shadow-2xl px-5 mb-7 text-black
 }
 .txtProjTit{
     font-weight: bolder;
-    color: black;
     font-size: 100px;
 }
 

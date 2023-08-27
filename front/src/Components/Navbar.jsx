@@ -1,14 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './CSS/Navbar.css'
 
-const Navbar = ({datas}) => {
+const Navbar = ({datas, darkMode, setDarkMode}) => {
 
   const [navbarActive, setNavbarActive] = useState(false)
-  const [darkmodeActive, setDarkmodeActive] = useState(false)
-
-  const darkmodeToggle=()=>{
-    setDarkmodeActive(!darkmodeActive);
-  }
 
   const DDmenu =()=>{
     return(
@@ -21,12 +16,12 @@ const Navbar = ({datas}) => {
                 return(
                   <div key={el.id}>
                     <div className="contentDD">
-                      <div className="contentTT" data-tip={el.name === "Dark mode" ? darkmodeActive ? el.Lname : el.name : el.name}>
+                      <div className="contentTT" data-tip={el.name === "Dark mode" ? darkMode ? el.Lname : el.name : el.name}>
                         <div className='CC'>
                           <a className='svgC'  
-                              style={{backgroundImage:`url(${el.name === "Dark mode" ? darkmodeActive ? el.Limg : el.img : el.img})`,
+                              style={{backgroundImage:`url(${el.name === "Dark mode" ? darkMode ? el.Limg : el.img : el.img})`,
                               height:`${el.name === "Me" ? "70px" : "45px"}`, width:`${el.name === "Me" ? "70px" : "45px"}`}}
-                              onClick={()=>{el.name === "Dark mode" ? darkmodeToggle() : null}}
+                              onClick={()=>{el.name === "Dark mode" ? setDarkMode() : null}}
                               href={el.contS === '' ? null : el.contS}
                           >
                           </a>

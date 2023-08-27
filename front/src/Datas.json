@@ -60,9 +60,9 @@
         },
         "phone":{
             "id": "3",
-            "name": "CP-number",
+            "name": "09622044041",
             "img": "https://www.svgrepo.com/show/490963/phone.svg",
-            "link":"cp"
+            "link":"tel:09622044041"
         },
         "resume":{
             "id": "4",
