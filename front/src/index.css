@@ -33,7 +33,7 @@
     height: 1760px;
   }
   .navbarContainer{
-    @apply translate-y-80;
+    @apply translate-y-64;
   }
 }
 
