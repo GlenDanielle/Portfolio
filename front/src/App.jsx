@@ -28,9 +28,11 @@ function App() {
   const toggleDarkMode = () => {
     setDarkMode(prevDarkMode => !prevDarkMode);
   };
+  document.title = "Glen's Portfolio";
 
   return (
     <>
+
       <div className={darkMode ? `bodyD` : `body`}>
         <style>{`
           *{color:${darkMode ? 'white': ''}}
