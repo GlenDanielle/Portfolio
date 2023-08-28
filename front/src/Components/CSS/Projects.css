@@ -5,7 +5,7 @@
     height: 1820px;
 }
 .containerTxtProj{
-    @apply shadow-2xl px-5 mb-7 text-black
+    @apply shadow-2xl px-5 mb-7 text-black shadow-[#606F49] 
 }
 .txtProjTit{
     font-weight: bolder;
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
 
-    @apply p-3 shadow-2xl mb-14
+    @apply p-3 shadow-2xl mb-14 shadow-[#606F49]
 }
 .projImg{
     @apply hero h-screen
@@ -47,7 +47,7 @@
     overflow: hidden;
     display: flex; 
     flex-direction: column;
-    @apply rounded-full hover:-translate-y-5 mx-7 my-5
+    @apply rounded-full hover:-translate-y-5 mx-7 my-5 shadow-2xl shadow-[#606F49]
 
 }
 .linkin{

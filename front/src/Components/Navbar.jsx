@@ -19,8 +19,11 @@ const Navbar = ({datas, darkMode, setDarkMode}) => {
                       <div className="contentTT" data-tip={el.name === "Dark mode" ? darkMode ? el.Lname : el.name : el.name}>
                         <div className='CC'>
                           <a className='svgC'  
-                              style={{backgroundImage:`url(${el.name === "Dark mode" ? darkMode ? el.Limg : el.img : el.img})`,
-                              height:`${el.name === "Me" ? "70px" : "45px"}`, width:`${el.name === "Me" ? "70px" : "45px"}`}}
+                              style={{
+                                backgroundImage:`url(${el.name === "Dark mode" ? darkMode ? el.Limg : el.img : el.img})`,
+                                backgroundSize:`${el.name === "Me" ? "65px" : "45px"}`,
+                                backgroundPositionX:`${el.name === "Skills" ? '2px' : ''}`
+                              }}
                               onClick={()=>{el.name === "Dark mode" ? setDarkMode() : null}}
                               href={el.contS === '' ? null : el.contS}
                           >

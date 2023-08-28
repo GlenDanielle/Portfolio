@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-98px);
-    @apply bg-white  w-12 h-12
+    transform: translateY(-97px);
+    background-color: #C2D5AA;
+    @apply w-12 h-12 shadow-2xl shadow-[#606F49] 
 }
 .contentTT{
-    @apply tooltip tooltip-right
+    @apply tooltip tooltip-right;
 }
 .CC{
     display: flex; 
@@ -15,11 +16,16 @@
 .svgC{
     background-size:contain;
     overflow: hidden;
+    height: 45px;
+    background-position: center;
+    width: 45px;
 }
 .buttDD{
     background-size:cover;
-    width: 50px;
-    @apply btn bg-white;
+    width: 45px;
+    height: 45px;
+    background-color: #C2D5AA;
+    @apply  shadow-2xl shadow-[#606F49] 
 }
 .navbarCont{
     display: flex;
