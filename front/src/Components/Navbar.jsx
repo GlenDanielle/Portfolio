@@ -26,7 +26,7 @@ const Navbar = ({datas, darkMode, setDarkMode}) => {
                               }}
                               onClick={()=>{el.name === "Dark mode" ? setDarkMode() : null}}
                               href={el.contS === '' ? null : el.contS}
-                          >
+                          > 
                           </a>
                         </div>
                       </div>
