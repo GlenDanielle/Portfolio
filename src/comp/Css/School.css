@@ -1,0 +1,78 @@
+.Schools{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.SchoolDataHolder h4{
+    margin-bottom: 0.4rem;
+}
+.SchoolDataHolder p{
+    margin-bottom: 0.5rem;
+}
+.SchoolDataHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    padding: 1.5rem;
+}
+.JruSpace{
+    margin-top: 1.4rem;
+}
+.DateNLoc{
+    font-weight: bold;
+    font-size: 0.62rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.JruSpace{
+    margin-top: 1.4rem;
+}
+@media(min-width: 375px){
+    .JruSpace{
+        margin-top: 0rem;
+    }
+}
+@media(min-width: 425px){
+    .SchoolDataHolder{
+        padding: 1.6rem;
+        
+    }
+}
+@media(min-width: 768px){
+    .SchoolDataHolder{
+        padding: 2.6rem;
+        
+    }
+    .SchoolDataHolder h4{
+        font-size: 1.5rem;
+    }
+    .SchoolDataHolder p{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 1024px){
+    .SchoolDataHolder{
+        padding: 3rem;
+        
+    }
+    .SchoolDataHolder h4{
+        font-size: 1.8rem;
+    }
+    .SchoolDataHolder p{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 1440px){
+    .SchoolDataHolder{
+        padding: 3rem;
+        
+    }
+    .SchoolDataHolder h4{
+        font-size: 2.4rem;
+    }
+    .SchoolDataHolder p{
+        font-size: 1.5rem;
+    }
+}

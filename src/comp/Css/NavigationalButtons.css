@@ -1,0 +1,109 @@
+.Nav{
+    position: absolute;
+}
+.NavigationContents{
+    display: flex;
+    flex-direction: row;
+}
+.NavButtons{
+    padding: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    height: 2.5rem;
+    outline: 0.1rem solid var(--text-color);
+    overflow: hidden;
+    background-color: var(--background-color);
+    margin: 0.25rem;
+    opacity: 1;
+    z-index: 2;
+}
+.Buttons{
+    padding: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    height: 2.5rem;
+    outline: 0.1rem solid var(--text-color);
+    overflow: hidden;
+    background-color: var(--background-color);
+    margin: 0.25rem;
+    opacity: 1;
+    transition: opacity ease-in-out;
+    animation: slideInRight 0.8s ease-in-out forwards;
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+}
+.hideButts{
+    padding: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    height: 2.5rem;
+    outline: 0.1rem solid var(--text-color);
+    overflow: hidden;
+    background-color: var(--background-color);
+    margin: 0.25rem;
+    transition: opacity ease-in-out;
+    animation: slideInLeft 0.8s ease-in-out forwards;
+    z-index: 1;
+}
+@keyframes slideInLeft{
+    0%{
+        transform: translateX(0rem);
+    }
+
+    100%{
+        transform: translateX(-60rem);
+        visibility: hidden;
+    }
+}
+@keyframes slideInRight{
+    0%{
+        transform: translateX(-60rem);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+.Buttons:hover{
+    opacity: 0.2;
+}
+.NavButtonTooltip{
+    border-radius: 0.3rem;
+    text-align: center;
+    outline: 0.1rem solid var(--text-color);
+}
+@media(min-width: 375px){
+    .NavButtons{
+        height: 3rem;
+    }
+    .Buttons{
+        height: 3rem;
+    }
+    .hideButts{
+        height: 3rem;
+    }
+}
+
+@media(min-width: 425px){
+    .NavButtons{
+        height: 3.5rem;
+    }
+    .Buttons{
+        height: 3.5rem;
+    }
+    .hideButts{
+        height: 3.5rem;
+    }
+}
+
+@media(min-width: 1440px){
+    .NavButtons{
+        height: 6rem;
+    }
+    .Buttons{
+        height: 6rem;
+    }
+    .hideButts{
+        height: 6rem;
+    }
+}

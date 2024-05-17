@@ -1,0 +1,34 @@
+[
+    {
+        "name": "open",
+        "img": "https://www.svgrepo.com/show/390577/arrow-arrows-back-left-move-next.svg"
+    },
+    {
+        "name": "close",
+        "img": "https://www.svgrepo.com/show/390576/arrow-direction-forward-move-next-previous.svg"
+    },
+    {
+        "name":"light",
+        "img": "https://www.svgrepo.com/show/192946/sun.svg"
+    },
+    {
+        "name":"dark",
+        "img": "https://www.svgrepo.com/show/192969/moon-phases-moon.svg"
+    },
+    {
+        "name":"school",
+        "img": "https://www.svgrepo.com/show/520508/student.svg"
+    },
+    {
+        "name":"skills",
+        "img": "https://www.svgrepo.com/show/520520/e-learning.svg"
+    },
+    {
+        "name":"projects",
+        "img": "https://www.svgrepo.com/show/520516/board.svg"
+    },
+    {
+        "name":"contacts",
+        "img": "https://www.svgrepo.com/show/520505/research.svg"
+    }
+]

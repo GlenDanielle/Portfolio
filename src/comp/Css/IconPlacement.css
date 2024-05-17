@@ -1,0 +1,63 @@
+.Image{
+    box-shadow: 2px 4px 10px red;
+    padding: 0.1rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    overflow: hidden;
+    margin: 0.5rem;
+    margin-bottom: 0.8rem;
+    background: black;
+    outline: 0.1rem solid var(--text-color); /*pinagiisipan pa*/
+}
+.IconPlacement{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.IconContainer{
+    transition: transform 0.3s ease;
+}
+.IconContainer:hover {
+    transform: translateY(1rem);
+}
+.Skills{
+    padding:1rem;
+}
+.Tooltip{
+    text-align: center;
+    color: white;
+    background-color: black;
+    outline: 0.1rem solid white;
+    border-radius: 0.3rem
+}
+@media (min-width: 768px){
+    .Image{
+        height: 5rem;
+        width: 5rem;
+    }
+    .Skills{
+        padding:2.4rem;
+    }
+}
+@media (min-width: 1024px){
+    .Image{
+        height: 6rem;
+        width: 6rem;
+    }
+    .Skills{
+        padding:2.4rem;
+    }
+}
+@media (min-width: 1440px){
+    .Image{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 10rem;
+    }
+    .Skills{
+        padding:4rem;
+    }
+}

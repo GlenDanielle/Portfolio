@@ -1,0 +1,43 @@
+/*  outline: solid red; */
+*{
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  overflow-wrap: break-word;
+
+}
+.background{
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column; 
+  scrollbar-width: 0;
+  overflow: hidden;
+}
+.background h1{
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px){
+  .Contents h1{
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1440px){
+  .Contents h1{
+    font-size: 4.6rem;
+  }
+}

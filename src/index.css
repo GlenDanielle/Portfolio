@@ -1,0 +1,11 @@
+:root {
+    --text-color: white; /* White */
+    --background-color: black; /* Dark gray */
+    --outline-color: white;
+}
+
+.lightMode {
+    --text-color: black; /* Dark mode color */
+    --background-color: white; /* Dark mode background color */
+    --outline-color: black;
+}
