@@ -9,6 +9,7 @@ import School from './comp/School'
 import NavigationalButtons from './comp/NavigationalButtons'
 import NavigationalButtonsIcons from './comp/Json/NavigationButtonsIcon.json'
 import { useEffect, useState } from 'react'
+import BackgroundCircle from './comp/BackgroundCircle'
 
 function App() {
   const [lightModeOn, setLightModeOn] = useState(false)
@@ -26,6 +27,7 @@ function App() {
     <div className='background'>
       <NavigationalButtons ButtonIcons={NavigationalButtonsIcons} lightModeOn={lightModeOn} toggleLightMode={toggleLightMode}/>
       <div className='Contents'>
+        <BackgroundCircle/>
         <Intro/> 
         <h1 id='school'>Education</h1>
         <School/>

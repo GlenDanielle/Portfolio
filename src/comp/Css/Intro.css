@@ -1,3 +1,6 @@
+*{
+    z-index: 1;
+}
 .Intro{
     margin-top: 4rem;
     display: flex;

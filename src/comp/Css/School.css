@@ -39,10 +39,13 @@
         padding: 1.6rem;
         
     }
+    .JruSpace{
+        margin-top: 1.4rem;
+    }
 }
 @media(min-width: 768px){
     .SchoolDataHolder{
-        padding: 2.6rem;
+        padding: 2rem;
         
     }
     .SchoolDataHolder h4{
@@ -50,6 +53,9 @@
     }
     .SchoolDataHolder p{
         font-size: 0.9rem;
+    }
+    .JruSpace{
+        margin-top: 0rem;
     }
 }
 @media (min-width: 1024px){

@@ -2,10 +2,26 @@
     --text-color: white; /* White */
     --background-color: black; /* Dark gray */
     --outline-color: white;
+    --box-shadow-color: #E2ECE9;
+    --background-icon-color: #1B263B;
+    --circle-color: #023E8A
+  }
+  
+.lightMode {
+--text-color: black; /* Light mode text color */
+--background-color: white; /* Light mode background color */
+--outline-color: black;
 }
 
-.lightMode {
-    --text-color: black; /* Dark mode color */
-    --background-color: white; /* Dark mode background color */
-    --outline-color: black;
-}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: var(--background-color);
+    width: 0.2rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:var(--circle-color);
+    border-radius: 10px;
+    
+  }

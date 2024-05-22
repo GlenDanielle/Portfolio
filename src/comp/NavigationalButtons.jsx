@@ -33,7 +33,7 @@ const NavigationalButtons = ({ButtonIcons, lightModeOn, toggleLightMode}) => {
                         :
                         null
                     }
-                    {showToolTip == index && index !=0 ? <p className='NavButtonTooltip'>{el.name}</p> : null}
+                    {showNavBar && showToolTip == index && index !=0 ? <p className='NavButtonTooltip'>{el.name}</p> : null}
                 </div>
             ))}
 

@@ -1,7 +1,9 @@
-/*  outline: solid red; */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+/* outline: solid red; */
+* {
   margin: 0;
 }
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -13,31 +15,39 @@ img, picture, video, canvas, svg {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Abril Fatface', serif;
+  font-family: "Dosis", sans-serif;
   font-style: normal;
   overflow-wrap: break-word;
-
 }
-.background{
-  background-color: var(--background-color);
+
+.background {
+  background: var(--background-color);
   color: var(--text-color);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   scrollbar-width: 0;
   overflow: hidden;
 }
-.background h1{
+
+.background h1 {
   display: flex;
   justify-content: center;
+  margin: 2rem 0;
 }
-@media (min-width: 768px){
-  .Contents h1{
+.Contents{
+  overflow: hidden;
+}
+
+
+@media (min-width: 768px) {
+  .Contents h1 {
     font-size: 3.5rem;
   }
 }
 
-@media (min-width: 1440px){
-  .Contents h1{
+@media (min-width: 1440px) {
+  .Contents h1 {
     font-size: 4.6rem;
   }
 }
+

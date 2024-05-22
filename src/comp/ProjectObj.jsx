@@ -7,7 +7,7 @@ const ProjectObj =
         "name":"Rtu Lost And Found",
         "link": "https://www.rtu-lostandfound.online/",
         "image": rtuLostNFound,
-        "desc": "A lost and found monitoring solution for my university as a capstone project."
+        "desc": "A monitoring solution for my university as a capstone project."
     },
     {
         "name":"Scratch Game",
@@ -19,7 +19,7 @@ const ProjectObj =
         "name":"Monsieur Connoisseur",
         "link": "https://github.com/GlenDanielle/EcommerceAS",
         "image": AS,
-        "desc": "A Point Ordering System mobile application made in Android Studio"
+        "desc": "A Point Ordering System mobile application in Android Studio"
     }
 ]
 
