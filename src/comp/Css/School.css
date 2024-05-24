@@ -14,10 +14,7 @@
     flex-direction: column;
     justify-content: start;
     text-align: center;
-    padding: 1.5rem;
-}
-.JruSpace{
-    margin-top: 1.4rem;
+    padding: 1rem;
 }
 .DateNLoc{
     font-weight: bold;
@@ -27,11 +24,11 @@
     justify-content: space-between;
 }
 .JruSpace{
-    margin-top: 1.4rem;
+    margin-top: 0rem;
 }
 @media(min-width: 375px){
     .JruSpace{
-        margin-top: 0rem;
+        margin-top: 1.3rem;
     }
 }
 @media(min-width: 425px){

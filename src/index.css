@@ -4,13 +4,18 @@
     --outline-color: white;
     --box-shadow-color: #E2ECE9;
     --background-icon-color: #1B263B;
+    --carousel-color: #1B263B;
+    --background-circle-color: #023E8A;
     --circle-color: #023E8A
   }
   
 .lightMode {
---text-color: black; /* Light mode text color */
---background-color: white; /* Light mode background color */
---outline-color: black;
+  --text-color: black; /* Light mode text color */
+  --background-color: #E2ECE9; /* Light mode background color */
+  --outline-color: black;
+  --box-shadow-color: #1B263b;
+  --background-icon-color: #485972;
+  --carousel-color: #566981;
 }
 
 ::-webkit-scrollbar {

@@ -1,11 +1,12 @@
+
 .Image{
     padding: 0.1rem;
     height: 4rem;
     width: 4rem;
     border-radius: 4rem;
     overflow: hidden;
-    margin: 0.5rem;
-    margin-bottom: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     background-color: var(--background-icon-color);
     box-shadow: 0.2rem 0.1rem 0rem 0.01rem var(--box-shadow-color); /*pinagiisipan pa*/
 }
@@ -14,9 +15,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.EducContainer{
+    transition: transform 0.3s ease;
+}
+.EducContainer:hover{
+    transform: translateY(1rem);
 }
 .IconContainer{
+    height: 7.4rem;
     transition: transform 0.3s ease;
 }
 .IconContainer:hover {
@@ -26,6 +35,7 @@
     padding:1rem;
 }
 .Tooltip{
+    margin-bottom: 0.4rem;
     text-align: center;
     color: white;
     background-color: black;
@@ -40,6 +50,9 @@
     .Skills{
         padding:2.4rem;
     }
+    .IconContainer{
+        height: 8.3rem;
+    }
 }
 @media (min-width: 1024px){
     .Image{
@@ -49,8 +62,14 @@
     .Skills{
         padding:2.4rem;
     }
+    .IconContainer{
+        height: 9.4rem;
+    }
 }
 @media (min-width: 1440px){
+    .IconContainer{
+        height: 14rem;
+    }
     .Image{
         height: 10rem;
         width: 10rem;
