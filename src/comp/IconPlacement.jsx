@@ -12,7 +12,7 @@ const IconPlacement = ({IconData}) => {
                 {el.name != 'Resume' ?
                 <img className='Image' src={el.img} alt={el.name} onClick={()=>{el.link ? GoToLink(el.link) : null}}/>
                 :
-                <a href='../assets/Resume.pdf' download>
+                <a href='../assets/Resume.pdf' download="Glen's_Resume.pdf">
                     <img className='Image' src={el.img} alt={el.name}/>
                 </a>
                 }
