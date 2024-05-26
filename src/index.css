@@ -6,7 +6,9 @@
     --background-icon-color: #1B263B;
     --carousel-color: #1B263B;
     --background-circle-color: #023E8A;
-    --circle-color: #023E8A
+    --circle-color: #023E8A;
+    --button-color: #485972;
+    --button-color-hover: #1B263B;
   }
   
 .lightMode {
@@ -16,6 +18,8 @@
   --box-shadow-color: #1B263b;
   --background-icon-color: #485972;
   --carousel-color: #566981;
+  --button-color: #1B263B;
+  --button-color-hover: #485972;
 }
 
 ::-webkit-scrollbar {

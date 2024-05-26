@@ -42,12 +42,14 @@
     border-radius: 0.5rem;
     padding: 0.4rem;
     color: white;
-    background-color: var(--background-circle-color);
+    background-color: var(--button-color);
     cursor: pointer;
+    font-weight: bold;
 }
 
 .Button:hover {
-    opacity: 0.6;
+    background: var(--button-color-hover);
+    
 }
 
 @media (min-width: 375px) {
