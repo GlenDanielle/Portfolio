@@ -1,25 +1,25 @@
 [
     {
         "group": "contacts",
-        "name": "facebook",
+        "name": "Facebook",
         "img": "https://www.svgrepo.com/show/452196/facebook-1.svg",
         "link":"https://www.facebook.com/profile.php?id=100058489353901"
     },
     {
         "group": "contacts",
-        "name": "gmail",
+        "name": "Gmail",
         "img": "https://www.svgrepo.com/show/452213/gmail.svg",
         "link":"mailto:glendanielleg@gmail.com"
     },
     {
         "group": "contacts",
-        "name": "linkedin",
+        "name": "Linkedin",
         "img": "https://www.svgrepo.com/show/452051/linkedin.svg",
         "link":"https://www.linkedin.com/in/glen-danielle-galit-949653303/"
     },
     {
         "group": "contacts",
-        "name": "github",
+        "name": "Github",
         "img": "https://www.svgrepo.com/show/349375/github.svg",
         "link":"https://github.com/GlenDanielle"
     },
@@ -27,7 +27,7 @@
         
         "name": "09622044041",
         "img": "https://www.svgrepo.com/show/210442/phone-call-mobile-phone.svg",
-        "link":"phone"
+        "link":"Phone"
     },
     {
         "group": "contacts",
