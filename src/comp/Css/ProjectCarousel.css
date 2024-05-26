@@ -4,8 +4,8 @@
     margin: 1rem 1rem 1rem 1rem;
     background-color: var(--carousel-color);
     transition: transform 0.5s ease-in-out;
-    box-shadow: 0.1rem 0.1rem 0rem 0.2rem var(--box-shadow-color)
-
+    box-shadow: 0.1rem 0.1rem 0rem 0.2rem var(--box-shadow-color);
+    color: white;
 }
 
 .CarouselOutline:hover {
