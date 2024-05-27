@@ -4,7 +4,6 @@ import './Css/NavigationalButtons.css'
 const NavigationalButtons = ({ButtonIcons, lightModeOn, toggleLightMode}) => {
     //console.log(ButtonIcons)
     const [showToolTip, setShowToolTip] = useState(null)
-    const [showNavBar, setshowNavBar] = useState(false)
 
     const jumpTo = (sectionId)=>{
         document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
@@ -13,27 +12,33 @@ const NavigationalButtons = ({ButtonIcons, lightModeOn, toggleLightMode}) => {
   return (
     <div className='Nav'>
         <div className='NavigationContents'>
-            {showNavBar ? 
-                <img className="NavButtons" src={ButtonIcons[1].img} onClick={()=>{setshowNavBar(false)}}></img>
-                :
-                <img className="NavButtons" src={ButtonIcons[0].img} onClick={()=>{setshowNavBar(true)}}></img>
-            }
             {ButtonIcons.map((el, index)=>(
                 <div key={index} onMouseEnter={()=>{setShowToolTip(index)}} onMouseLeave={()=>{setShowToolTip(null)}}>
-                    {index === 2 ?
+                    {index === 0 ?
                         lightModeOn ? 
-                            <img className={showNavBar ? "Buttons": "hideButts"} src={ButtonIcons[3].img} onClick={()=>{toggleLightMode()}}></img>
+                            <img className="Buttons" src={ButtonIcons[1].img} onClick={()=>{toggleLightMode()}}></img>
                             : 
-                            <img className={showNavBar ? "Buttons": "hideButts"} src={ButtonIcons[2].img} onClick={()=>{toggleLightMode()}}></img>
+                            <img className="Buttons" src={ButtonIcons[0].img} onClick={()=>{toggleLightMode()}}></img>
                         :
                         null
                     }
-                    {index > 3  ? 
-                        <img className={showNavBar ? "Buttons": "hideButts"} src={el.img} onClick={()=>{jumpTo(el.name)}}/>
+                    {index > 1  ? 
+                        <img className="Buttons" src={el.img} onClick={()=>{jumpTo(el.name)}}/>
                         :
                         null
                     }
-                    {showNavBar && showToolTip == index && index !=0 ? <p className='NavButtonTooltip'>{el.name}</p> : null}
+                    {index === 0 ?
+                        showToolTip === index ?
+                                lightModeOn ?
+                                    <p className='NavButtonTooltip'>{ButtonIcons[1].name}</p> 
+                                : 
+                                    <p className='NavButtonTooltip'>{ButtonIcons[0].name}</p>
+                            :
+                            null
+                        :
+                        null 
+                    }
+                    {showToolTip === index && index != 0 ? <p className='NavButtonTooltip'>{el.name}</p> : null}
                 </div>
             ))}
 

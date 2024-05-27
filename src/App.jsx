@@ -11,6 +11,7 @@ import NavigationalButtonsIcons from './comp/Json/NavigationButtonsIcon.json'
 import { useEffect, useState } from 'react'
 import BackgroundCircle from './comp/BackgroundCircle'
 
+
 function App() {
   const [lightModeOn, setLightModeOn] = useState(false)
   useEffect(() => {

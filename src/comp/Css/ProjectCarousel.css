@@ -45,6 +45,7 @@
     background-color: var(--button-color);
     cursor: pointer;
     font-weight: bold;
+    transition: 0.2s ease-in-out;
 }
 
 .Button:hover {

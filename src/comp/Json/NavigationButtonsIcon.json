@@ -1,13 +1,5 @@
 [
     {
-        "name": "open",
-        "img": "https://www.svgrepo.com/show/390577/arrow-arrows-back-left-move-next.svg"
-    },
-    {
-        "name": "close",
-        "img": "https://www.svgrepo.com/show/390576/arrow-direction-forward-move-next-previous.svg"
-    },
-    {
         "name":"light",
         "img": "https://www.svgrepo.com/show/192946/sun.svg"
     },
@@ -16,7 +8,7 @@
         "img": "https://www.svgrepo.com/show/192969/moon-phases-moon.svg"
     },
     {
-        "name":"education",
+        "name":"school",
         "img": "https://www.svgrepo.com/show/520508/student.svg"
     },
     {
