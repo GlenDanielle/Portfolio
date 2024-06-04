@@ -9,6 +9,7 @@
     align-items: center;
 }
 .Photo{
+    margin-bottom: 1rem;
     height: 8rem;
     width: 8rem;
     border-radius: 8rem;
@@ -21,7 +22,6 @@
     text-align: center;
 }
 .TxtIntro h4{
-    margin-top: 1rem;
     text-align: center;
 }
 @media(min-width: 425px){
@@ -34,7 +34,6 @@
         padding: 2.5rem;
     }
     .TxtIntro h4{
-        margin-top: 1rem;
         font-size: 1.5rem;
     }
     .TxtIntro p{
@@ -48,6 +47,16 @@
 @media(min-width: 1024px){
     .Intro{
         padding: 3rem;
+    }
+    .Photo{
+       margin-bottom: 3rem;
+    }
+    .TxtIntro{
+        width: 60rem;
+        padding: 1.3rem;
+        font-size: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0.6rem 0.6rem 1rem 0.6rem var(--carousel-color);
     }
 }
 @media (min-width: 1440px){

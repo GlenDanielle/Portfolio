@@ -9,6 +9,7 @@
     --circle-color: #023E8A;
     --button-color: #485972;
     --button-color-hover: #1B263B;
+    --tooltip-bg-color: black;
   }
   
 .lightMode {
@@ -20,6 +21,7 @@
   --carousel-color: #566981;
   --button-color: #1B263B;
   --button-color-hover: #485972;
+  --tooltip-bg-color: #485972;
 }
 
 ::-webkit-scrollbar {
