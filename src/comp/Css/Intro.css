@@ -17,6 +17,11 @@
     padding: 0.1rem;
     outline: 0.2rem solid var(--text-color);
 }
+.TxtIntro{
+    padding: 1.3rem;
+    border-radius: 1rem;
+    box-shadow: 0.6rem 0.6rem 1rem 0.6rem var(--carousel-color);
+}
 .TxtIntro p{
     margin-top: 0.2rem;
     text-align: center;
@@ -53,7 +58,7 @@
     }
     .TxtIntro{
         width: 60rem;
-        padding: 1.3rem;
+        padding: 1.5rem;
         font-size: 2rem;
         border-radius: 1rem;
         box-shadow: 0.6rem 0.6rem 1rem 0.6rem var(--carousel-color);
