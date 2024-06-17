@@ -98,16 +98,17 @@
         padding:3rem;
     }
     .IconContainer{
-        height: 10rem;
+        height: 11rem;
     }
     .Tooltip{
         padding: 0.21rem;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.7rem;
     }
 }
 @media (min-width: 1440px){
     .IconContainer{
-        height: 14rem;
+        font-size: 1.5rem;
+        height: 16rem;
     }
     .Image{
         height: 10rem;

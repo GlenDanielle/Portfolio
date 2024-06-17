@@ -42,5 +42,9 @@
     {
         "name":"DaisyUi",
         "img":"https://img.daisyui.com/images/daisyui-logo/daisyui-logomark.svg"
+    },
+    {
+        "name":"MongoDB",
+        "img":"https://www.svgrepo.com/show/373845/mongo.svg"
     }
 ]
