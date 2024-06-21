@@ -53,7 +53,7 @@ const ProjectCarousel = ({ ProjectImages}) => {
                             <p className='Desc'>{elem.desc}</p>
                             <div className="ButtonPlacement">
                                 <button className="Button" onClick={() => { GoToLink(elem.link) }}>
-                                    Check Out
+                                    {elem.status}
                                 </button>
                             </div>
                         </div>

@@ -107,15 +107,13 @@
     .Desc {
         font-size: 1.1rem;
         margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .Button {
         font-size: 0.8rem;
         padding: 0.6rem;
-    }
-
-    .Card {
-        padding: 1.2rem;
     }
 }
 
@@ -142,6 +140,7 @@
     }
 
     .Card {
-        padding: 1rem;
+        padding: 1.2rem;
+        
     }
 }
