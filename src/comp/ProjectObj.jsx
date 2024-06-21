@@ -1,8 +1,15 @@
 import Images from "./Images"
-    const {rtuLostNFound, ScratchGame, AS} = Images
+    const {rtuLostNFound, ScratchGame, AS, BBC} = Images
 
 const ProjectObj =
 [
+    {
+        "status": "On Development",
+        "name":"Blissful Bite Cafe",
+        "link": "phone",
+        "image": BBC,
+        "desc": "A POS side project using react JS as front end and php Laravel for the back end with mysql in the database"
+    },
     {
         "status": "Check Out",
         "name":"Rtu Lost And Found",
